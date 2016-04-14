@@ -1,71 +1,61 @@
-html, body{
-    margin:0 auto;
-    padding:0;
-    font-size:67.5%;
-}
-
-body{
-    box-sizing:border-box;
-    margin:0 auto;
-    width:13%;
-    height:20%;
-    text-align:center;
-    font-family:sans-serif;
-}
-
-#calc{
-    margin-top:50%;
-    width:30em;
-    height:23em;
-    padding:3em;
-    display:block;
-    border-radius:.9em;
-    background-color:olivedrab;
-    box-shadow: 10px 10px 5px #888888;
-}
-
-.button{
-    
-    width:3em;
-    height:3em;
-    margin:0 auto;
-    font-size:1.5em;
-    padding:.5em;
-    border-style:solid;
-    background-color:lightblue;
-    box-shadow:5px 5px 5px #888888;
-    display:block;
-    
-}
-#one_three{
-    
-    float:left;
-    margin:1.3em;
-    display:block;
-    border-style:dotted solid blue 2%;
-    
-}
-#plus_minus{
-    
-    float:right;
-    margin:1.3em;
-    
-}
-#three_four{
-    
-    margin:1.3em;
-    display:block;
-    border-style:dotted solid blue 2%;
-    
-}
-.equal{
-    width:11em;
-    height:3em;
-    font-size:1.2em;
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
 }
 
 
+#calculator {
+	width:554px;
+	height:310px;
+	border-radius:1em;
+	margin:100px auto;
+	padding:13px;
+	background:orange;
+}
+
+.top .screen {
+	height:40px;
+	width:90%;
+	float:rig;
+	padding:0 10px;
+	background:rgba(0, 0, 0, 0.2);
+	border-radius:3px;
+	box-shadow:inset 0px 4px rgba(0, 0, 0, 0.2);
+	font-size:17px;
+	line-height:40px;
+	color: white;
+	text-shadow:1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align:right;
+	letter-spacing:1px;
+}
 
 
+.keys, .top {overflow: hidden;}
 
+
+.keys span, .top span.clear {
+	float: left;
+	position: relative;
+	top:0;
+	cursor:pointer;
+	width:66px;
+	height:36px;
+	background:white;
+	border-radius:3px;
+	box-shadow:0px 4px rgba(0, 0, 0, 0.2);
+	margin:0 7px 11px 0;
+	color:#888;
+	line-height:36px;
+	text-align:center;
+	user-select:none;
+	transition:all 0.2s ease;
+}
+
+
+.keys span.operator {
+	background: #FFF0F5;
+	margin-right: 0;
+}
 
