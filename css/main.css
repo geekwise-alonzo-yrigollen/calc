@@ -29,10 +29,11 @@ body{
     width:3em;
     height:3em;
     margin:0 auto;
-    font-size:1.3em;
+    font-size:1.5em;
     padding:.5em;
     border-style:solid;
     background-color:lightblue;
+    box-shadow:5px 5px 5px #888888;
     display:block;
     
 }
@@ -57,3 +58,14 @@ body{
     border-style:dotted solid blue 2%;
     
 }
+.equal{
+    width:11em;
+    height:3em;
+    font-size:1.2em;
+}
+
+
+
+
+
+
