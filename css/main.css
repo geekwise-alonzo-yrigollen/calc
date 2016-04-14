@@ -16,9 +16,10 @@ body{
 #calc{
     margin-top:50%;
     width:30em;
-    height:20em;
+    height:23em;
     padding:3em;
     display:block;
+    border-radius:.9em;
     background-color:olivedrab;
     box-shadow: 10px 10px 5px #888888;
 }
